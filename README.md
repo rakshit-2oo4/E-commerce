@@ -68,7 +68,6 @@ Admin: Manage products, (planned: users, orders).
 
 Admin Access
 Register a user, then manually set isAdmin: true in MongoDB:
-db.users.updateOne({ email: "your_registered_email@example.com" }, { $set: { isAdmin: true } })
 
  Future Enhancements
 Product Reviews & Ratings.
