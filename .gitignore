@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+yarn-debug.log
+.pnpm-store/
+
+# Logs
+*.log
+logs/
+
+
+# VS Code
+.vscode/
+
+# Production Build (React/Vite)
+frontend/dist/
+frontend/build/
+
+# Compiled output (backend)
+/backend/dist/
+/backend/build/
+
+# Environment variables for backend and frontend
+/backend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Frontend specific 
+.vite/
