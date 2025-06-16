@@ -1,6 +1,5 @@
 # Node.js
 node_modules/
-.env
 npm-debug.log
 yarn-debug.log
 .pnpm-store/
@@ -28,3 +27,6 @@ frontend/build/
 
 # Frontend specific 
 .vite/
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
